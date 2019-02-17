@@ -13,6 +13,7 @@
 		2B5B6D0F22189868009799D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B6D0E22189868009799D8 /* Assets.xcassets */; };
 		2B5B6D1222189868009799D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B6D1022189868009799D8 /* LaunchScreen.storyboard */; };
 		2B5B6D1D22189869009799D8 /* SeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B6D1C22189869009799D8 /* SeekTests.swift */; };
+		2BB453502218FAC000AFA9D4 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4534F2218FAC000AFA9D4 /* Discover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2B5B6D1822189869009799D8 /* SeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5B6D1C22189869009799D8 /* SeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekTests.swift; sourceTree = "<group>"; };
 		2B5B6D1E22189869009799D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB4534F2218FAC000AFA9D4 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2B5B6D0622189868009799D8 /* Seek */,
 				2B5B6D1B22189869009799D8 /* SeekTests */,
 				2B5B6D0522189868009799D8 /* Products */,
+				2BB4535B2219148700AFA9D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +82,7 @@
 			children = (
 				2B5B6D0722189868009799D8 /* AppDelegate.swift */,
 				2B5B6D0922189868009799D8 /* ViewController.swift */,
+				2BB4534F2218FAC000AFA9D4 /* Discover.swift */,
 				2B5B6D0B22189868009799D8 /* Main.storyboard */,
 				2B5B6D0E22189868009799D8 /* Assets.xcassets */,
 				2B5B6D1022189868009799D8 /* LaunchScreen.storyboard */,
@@ -94,6 +98,13 @@
 				2B5B6D1E22189869009799D8 /* Info.plist */,
 			);
 			path = SeekTests;
+			sourceTree = "<group>";
+		};
+		2BB4535B2219148700AFA9D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			files = (
 				2B5B6D0A22189868009799D8 /* ViewController.swift in Sources */,
 				2B5B6D0822189868009799D8 /* AppDelegate.swift in Sources */,
+				2BB453502218FAC000AFA9D4 /* Discover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +366,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Seek/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Seek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Stanford.Seek;
@@ -368,6 +385,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Seek/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Seek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Stanford.Seek;
