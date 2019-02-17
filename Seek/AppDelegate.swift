@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import HoundifySDK
+import HoundifySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
