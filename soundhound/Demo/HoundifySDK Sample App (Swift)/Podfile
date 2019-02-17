@@ -1,0 +1,4 @@
+target 'HoundifySDK Sample App (Swift)' do
+  use_frameworks!
+  pod 'HoundifySDK'
+end

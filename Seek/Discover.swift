@@ -9,7 +9,7 @@
 import AVFoundation
 import Foundation
 import UIKit
-//import HoundifySDK
+import HoundifySDK
 
 class Discover: UIViewController {
     
@@ -24,6 +24,7 @@ class Discover: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
     
 }
